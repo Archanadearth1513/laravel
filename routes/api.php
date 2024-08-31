@@ -46,4 +46,4 @@ Route::delete('/users/{id}', [UserController::class, 'destroy']);
 Route::middleware('auth:sanctum')->post('/products', [ProductController::class, 'store']);
 
 //for add product
-Route::post('/products', [ProductController::class, 'store']);
+//Route::post('/products', [ProductController::class, 'store']);
